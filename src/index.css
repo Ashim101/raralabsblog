@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::after,
+*::before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@layer base {
+  :root {
+    --white: 255 255 255;
+    --black: 0 0 0;
+    --brand-primary: 96 52 168;
+    --surface-background: 238 242 247;
+    --surface-layout: 255 255 255;
+    --surface-muted: 238 242 247;
+    --surface-disabled: 223 229 236;
+    --surface-highlight: 247 249 254;
+    --interactive-primary: 96 52 168;
+    --interactive-background: 240 239 246;
+    --interactive-depressed: 53 47 80;
+    --interactive-hover: 255 255 255;
+    --warning-primary: 255 196 83;
+    --warning-background: 255 245 234;
+    --info-primary: 20 62 159;
+    --info-background: 241 245 253;
+    --icon-primary: 109 116 125;
+    --icon-secondary: 203 208 214;
+    --icon-disabled: 175 181 187;
+    --icon-onColor: 255 255 255;
+
+    --critical-primary: 216 44 13;
+    --critical-background: 255 244 244;
+    --critical-depressed: 143 74 61;
+    --critical-hover: 255 255 255;
+    --success-primary: 0 128 96;
+    --success-background: 241 248 245;
+    --text-primary: 52 60 70;
+    --text-secondary: 99 105 114;
+    --text-disabled: 145 151 159;
+    --text-onColor: 255 255 255;
+    --border-layout: 224 229 235;
+    --border-element: 145 151 159;
+    --border-ring: 136 127 179;
+    --border-active: 96 52 168;
+  }
+  .dark {
+    --white: 255 255 255;
+    --black: 0 0 0;
+    --brand-primary: 96 52 168;
+    --surface-background: 238 242 247;
+    --surface-layout: 255 255 255;
+    --surface-muted: 238 242 247;
+    --surface-disabled: 223 229 236;
+    --surface-highlight: 247 249 254;
+    --interactive-primary: 96 52 168;
+    --interactive-background: 240 239 246;
+    --interactive-depressed: 53 47 80;
+    --interactive-hover: 255 255 255;
+    --warning-primary: 255 196 83;
+    --warning-background: 255 245 234;
+    --info-primary: 20 62 159;
+    --info-background: 241 245 253;
+    --icon-primary: 109 116 125;
+    --icon-secondary: 203 208 214;
+    --icon-disabled: 175 181 187;
+    --icon-onColor: 255 255 255;
+
+    --critical-primary: 216 44 13;
+    --critical-background: 255 244 244;
+    --critical-depressed: 143 74 61;
+    --critical-hover: 255 255 255;
+    --success-primary: 0 128 96;
+    --success-background: 241 248 245;
+    --text-primary: 52 60 70;
+    --text-secondary: 99 105 114;
+    --text-disabled: 145 151 159;
+    --text-onColor: 255 255 255;
+
+    --border-layout: 224 229 235;
+    --border-element: 145 151 159;
+    --border-ring: 136 127 179;
+    --border-active: 96 52 168;
+  }
+}
